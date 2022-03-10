@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with React Open Market
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To get started, clone this repository:
+
+`git clone https://github.com/ofernandoavila/react-open-market`
+
+Pull request are welcome!
 
 ## Available Scripts
 
@@ -39,8 +43,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## (Optional) PHP API in development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+There is an API avaible to use while development in apache server. You can easily find in [react-open-market-api-php](https://github.com/ofernandoavila/react-open-market-php-api), just need to clone into your `www` or `htdocs` repository.
