@@ -14,7 +14,7 @@ To deploy this project into an Apache server, there is a couple config to change
 "homepage" : "http://YOUR_DOMAIN.com"
 ```
 
-And change into `App.tsx`, add into `<Router>` a property call `basename` with the root path of your project. E.g.:
+And change into `App.tsx`, add into `<Router>` a property called `basename` with the root path of your project. E.g.:
 
 ```javascript
 <Router basename={"/"} />
