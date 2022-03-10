@@ -9,12 +9,17 @@ Pull request are welcome!
 ## For deploy into a Apache server
 
 To deploy this project into an Apache server, there is a couple config to change. Add into `package.json`: 
-`"homepage" : "http://YOUR_DOMAIN.com"`
+
+```json
+"homepage" : "http://YOUR_DOMAIN.com"
+```
 
 And change into `App.tsx`, add into `<Router>` a property call `basename` with the root path of your project. E.g.:
 
-`<Router basename={"/"} />`
- 
+```javascript
+<Router basename={"/"} />
+ ```
+
  To turn everything on, is advertise to add a `.htaccess` file by the side of `index.html`, with the following rules:
 
 ```htaccess
