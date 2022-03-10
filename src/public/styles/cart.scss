@@ -1,0 +1,40 @@
+.cart-container {
+    min-height: 60vh;
+    width: 100%;
+    padding: 24px 0px;
+
+    .checkout-button {
+        margin-top: 24px;
+        display: flex;
+        justify-content: flex-end;
+
+        input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 8px 16px;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+}
+
+.cart-footer {
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+
+    &-shipping {
+        flex: 1;
+    }
+
+    &-price-overview {
+        flex: 2;
+    }
+}
+
+.separator {
+    content: '';
+    width: 100%;
+    margin: 24px 0px;
+    border-top: 1px solid #cecece;
+}
